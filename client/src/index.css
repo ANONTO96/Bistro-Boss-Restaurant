@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Center the thumbnails */
+.carousel .thumbs {
+    @apply flex justify-center mt-4;
+  }
+
+.featured-item{
+  background-image: url('../src/assets/home/featured.jpg');
+}
